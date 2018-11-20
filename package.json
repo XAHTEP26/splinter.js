@@ -1,6 +1,6 @@
 {
   "name": "splinter.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for split HTML text into words and characters.",
   "main": "build/splinter.js",
   "browser": "build/splinter.js",
