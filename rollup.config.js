@@ -24,7 +24,7 @@ export default {
   output: {
     file: `build/splinter${isProd ? '.min' : ''}.js`,
     format: 'umd',
-    name: 'splinter'
+    name: 'Splinter'
   },
   plugins
 };
