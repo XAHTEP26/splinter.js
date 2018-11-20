@@ -3,7 +3,7 @@ JavaScript library for split HTML text into words and characters.
 Ideal for creating text animation on a page.
 
 [![License: MIT](https://img.shields.io/github/license/XAHTEP26/splinter.js.svg)](LICENSE)
-[![npm version](https://img.shields.io/npm/v/splitter.js.svg)](https://www.npmjs.com/package/splitter.js)
+[![npm version](https://img.shields.io/npm/v/splinter.js.svg)](https://www.npmjs.com/package/splinter.js)
 
 ## Features
 - No dependencies
