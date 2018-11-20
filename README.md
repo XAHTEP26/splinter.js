@@ -36,9 +36,6 @@ Download [latest release](https://github.com/XAHTEP26/splinter.js/releases/lates
 ```
 
 ## Usage
-
-Just write one level of tree in scoped-slot and pass children data to empty child v-tree component and it will inherit the parent slot template.
-
 ```html
 <div class="content">
   <!-- Text -->
