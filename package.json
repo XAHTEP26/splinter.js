@@ -1,0 +1,40 @@
+{
+  "name": "splinter.js",
+  "version": "1.0.0",
+  "description": "Utility for split HTML text into words and characters.",
+  "main": "build/splinter.js",
+  "browser": "build/splinter.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development rollup -w -c",
+    "build": "cross-env NODE_ENV=development rollup -c && cross-env NODE_ENV=production rollup -c"
+  },
+  "module": "index",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XAHTEP26/splinter.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "split",
+    "text",
+    "words",
+    "characters"
+  ],
+  "author": "Grigory Kovalenko <mail@kogri.ru> (https://kogri.ru/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XAHTEP26/splinter.js/issues"
+  },
+  "homepage": "https://github.com/XAHTEP26/splinter.js#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "cross-env": "^5.2.0",
+    "rollup": "^0.67.3",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "dependencies": {}
+}
